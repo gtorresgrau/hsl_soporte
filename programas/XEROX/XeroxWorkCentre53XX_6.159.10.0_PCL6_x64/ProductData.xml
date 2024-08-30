@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SharedProductData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ReleaseDescriptorNoSpaces>XeroxWorkCentre53xx</ReleaseDescriptorNoSpaces>
+  <ReleaseDescriptorWithSpaces>Xerox WorkCentre 5325/5330/5335</ReleaseDescriptorWithSpaces>
+  <RecommendedPdl>PCL6</RecommendedPdl>
+  <V4DriverPDL>PCL6</V4DriverPDL>
+  <V4DriverPDL>PS</V4DriverPDL>
+  <WebLinkModelId>WC53XX</WebLinkModelId>
+  <CWISColorLevelsLink>http://{0}/stsply.htm</CWISColorLevelsLink>
+  <CWISPaperLevelsLink>http://{0}/sttray.htm</CWISPaperLevelsLink>
+  <DefaultRegistrationModel>WC5325</DefaultRegistrationModel>
+  <capabilities>
+    <ControllerFamily>GREEN</ControllerFamily>
+    <ControllerFamilyVersion></ControllerFamilyVersion> <!-- ?????? No idea. Doesn't really matter yet, though. -->
+    <MicrosoftWsdMonAutoConfig>NotSupported</MicrosoftWsdMonAutoConfig>
+    <MicrosoftTcpMonAutoConfig>NotSupported</MicrosoftTcpMonAutoConfig>
+    <XBDSLevel>1.0</XBDSLevel>
+    <XCPTLevel>1.0</XCPTLevel>
+    <CBRLevel />
+    <ColorCapability>Monochrome</ColorCapability>
+    <MediaTypeTranslation>Office</MediaTypeTranslation>
+    <LDAPPhonebook>Available</LDAPPhonebook>
+  </capabilities>
+  <models>
+    <PrinterModel>
+      <ModelName>Xerox WorkCentre 5335</ModelName>
+      <SysObjectIds>
+        <string>1.3.6.1.4.1.253.8.62.1.20.6.5.1</string>
+      </SysObjectIds>
+      <USBProductId>42AD</USBProductId>
+      <RatedSpeed>35</RatedSpeed>
+      <HardwareId>XeroxWorkCentre_5335EA07</HardwareId>
+      <ConditionalModelDesignation>5335</ConditionalModelDesignation>
+      <WebLinkModelId>WC53XX</WebLinkModelId>
+    </PrinterModel>
+    <PrinterModel>
+      <ModelName>Xerox WorkCentre 5330</ModelName>
+      <SysObjectIds>
+        <string>1.3.6.1.4.1.253.8.62.1.20.6.4.1</string>
+      </SysObjectIds>
+      <USBProductId>42AC</USBProductId>
+      <RatedSpeed>30</RatedSpeed>
+      <HardwareId>XeroxWorkCentre_5330E9C7</HardwareId>
+      <ConditionalModelDesignation>5330</ConditionalModelDesignation>
+      <WebLinkModelId>WC53XX</WebLinkModelId>
+    </PrinterModel>
+    <PrinterModel>
+      <ModelName>Xerox WorkCentre 5325</ModelName>
+      <SysObjectIds>
+        <string>1.3.6.1.4.1.253.8.62.1.20.6.3.1</string>
+      </SysObjectIds>
+      <USBProductId>42AB</USBProductId>
+      <RatedSpeed>25</RatedSpeed>
+      <HardwareId>XeroxWorkCentre_53257A06</HardwareId>
+      <ConditionalModelDesignation>5325</ConditionalModelDesignation>
+      <WebLinkModelId>WC53XX</WebLinkModelId>
+    </PrinterModel>
+  </models>
+</SharedProductData>

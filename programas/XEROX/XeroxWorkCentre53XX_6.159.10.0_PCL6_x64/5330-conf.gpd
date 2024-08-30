@@ -1,0 +1,168 @@
+
+*%******************************************************************************************
+*% AutoConfig features for Xerox WorkCentre 5325/5330/5335
+*% Copyright(c) 2015 Xerox Corporation
+*% All rights reserved.
+*%******************************************************************************************
+ 
+*GPDSpecVersion: "1.0"
+
+*Feature: InstallableAuthenticationModuleActual
+{
+	*rcNameID: =IDS_NOT_VISIBLE
+	*FeatureType: PRINTER_PROPERTY
+	*DefaultOption: None
+	*ConcealFromUI?: TRUE
+		
+	*Option: CommonAccessCardPiv
+	{
+		*rcNameID: =IDS_NOT_VISIBLE
+	}
+		
+	*Option: None
+	{
+		*rcNameID: =IDS_NOT_VISIBLE
+	}
+}
+
+
+*Feature: InstallableFaxOutActual
+{
+	*rcNameID: =IDS_LAN_FAX_MODULE
+	*FeatureType: PRINTER_PROPERTY
+	*DefaultOption: NotInstalled
+		
+	*Option: Installed
+	{
+		*rcNameID: =IDS_INSTOPT_INSTALLED
+	}
+		
+	*Option: NotInstalled
+	{
+		*rcNameID: =IDS_INSTOPT_NOT_INSTALLED
+	}
+}
+
+
+*Feature: InstallableHighCapacityFeederActual
+{
+	*rcNameID: =IDS_INSTOPT_FEEDER
+	*FeatureType: PRINTER_PROPERTY
+	*DefaultOption: NotInstalled
+		
+	*Option: Hcf
+	{
+		*rcNameID: =IDS_INSTOPT_INSTALLED
+	}
+		
+	*Option: NotInstalled
+	{
+		*rcNameID: =IDS_INSTOPT_NOT_INSTALLED
+	}
+}
+
+
+*Feature: InstallableHolePunchUnitActual
+{
+	*rcNameID: =IDS_INSTOPT_HOLE_PUNCH_UNIT
+	*FeatureType: PRINTER_PROPERTY
+	*DefaultOption: NotInstalled
+		
+	*Option: NotInstalled
+	{
+		*rcNameID: =IDS_INSTOPT_NOT_INSTALLED
+	}
+		
+	*Option: Punch_2And_3HoleSheet
+	{
+		*rcNameID: =IDS_INSTOPT_2_3_PUNCH_UNIT
+	}
+		
+	*Option: Punch_2And_4HoleSheet
+	{
+		*rcNameID: =IDS_INSTOPT_2_4_PUNCH_UNIT
+	}
+}
+
+
+*Feature: InstallableInputPaperTraysActual
+{
+	*rcNameID: =IDS_INSTOPT_PAPER_TRAYS
+	*FeatureType: PRINTER_PROPERTY
+	*DefaultOption: 5TraysHighCapacityTandemTray
+		
+	*Option: 3Trays
+	{
+		*rcNameID: =IDS_INSTOPT_THREE_TRAYS
+	}
+		
+	*Option: 5TraysHighCapacityTandemTray
+	{
+		*rcNameID: =IDS_INSTOPT_5_TRAYS_HI_CAP_TANDEM
+	}
+}
+
+
+*Feature: InstallableJobAccountingSystemActual
+{
+	*rcNameID: =IDS_NOT_VISIBLE
+	*FeatureType: PRINTER_PROPERTY
+	*DefaultOption: None
+	*ConcealFromUI?: TRUE
+		
+	*Option: Billing
+	{
+		*rcNameID: =IDS_NOT_VISIBLE
+	}
+		
+	*Option: InternalAuditron
+	{
+		*rcNameID: =IDS_NOT_VISIBLE
+	}
+		
+	*Option: LocalBillingSecure
+	{
+		*rcNameID: =IDS_NOT_VISIBLE
+	}
+		
+	*Option: NetworkBilling
+	{
+		*rcNameID: =IDS_NOT_VISIBLE
+	}
+		
+	*Option: None
+	{
+		*rcNameID: =IDS_NOT_VISIBLE
+	}
+}
+
+
+*Feature: InstallableOutputDeliveryUnitActual
+{
+	*rcNameID: =IDS_INSTOPT_FINISHER
+	*FeatureType: PRINTER_PROPERTY
+	*DefaultOption: OutputBin_500Sheet
+		
+	*Option: ATypeFinisher
+	{
+		*rcNameID: =IDS_INSTOPT_INTEGRATED_OFFICE_FINISHER
+	}
+		
+	*Option: NotInstalled
+	{
+		*rcNameID: =IDS_INSTOPT_OUTPUT_TRAY
+	}
+		
+	*Option: TypeSb
+	{
+		*rcNameID: =IDS_INSTOPT_OFFICE_FINISHER_LX
+	}
+		
+	*Option: TypeSbBookletMaker
+	{
+		*rcNameID: =IDS_INSTOPT_OFFICE_FINISHER_LX_W_BK
+	}
+}
+
+
+

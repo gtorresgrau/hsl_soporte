@@ -1,0 +1,125 @@
+
+
+;***************************************************************************************
+; INF file for Xerox WorkCentre 5325/5330/5335 PCL6 print driver
+; Copyright (c) 2015 Xerox Corporation
+; All rights reserved.
+;***************************************************************************************
+
+
+[Version]
+Signature="$Windows NT$"
+Provider=%XR%
+ClassGUID={4D36E979-E325-11CE-BFC1-08002BE10318}
+Class=Printer
+CatalogFile=XeroxWorkCentre53xx.cat
+ClassVer=4.0
+DriverVer=09/01/2015,6.159.10.0
+
+[Manufacturer]
+"Xerox"=Model,NTamd64
+[Model.NTamd64]
+"Xerox WorkCentre 5335 V4 PCL6" = INSTALL_SECTION_5335,usbprint\XeroxWorkCentre_5335EA07
+"Xerox WorkCentre 5335 V4 PCL6" = INSTALL_SECTION_5335,wsdprint\XeroxWorkCentre_5335EA07
+"Xerox WorkCentre 5330 V4 PCL6" = INSTALL_SECTION_5330,usbprint\XeroxWorkCentre_5330E9C7
+"Xerox WorkCentre 5330 V4 PCL6" = INSTALL_SECTION_5330,wsdprint\XeroxWorkCentre_5330E9C7
+"Xerox WorkCentre 5325 V4 PCL6" = INSTALL_SECTION_5325,usbprint\XeroxWorkCentre_53257A06
+"Xerox WorkCentre 5325 V4 PCL6" = INSTALL_SECTION_5325,wsdprint\XeroxWorkCentre_53257A06
+"Xerox WorkCentre 5335 V4 PCL6" = INSTALL_SECTION_5335,{b595bd56-e505-458e-84d5-a05b3daf2d00}
+
+[DestinationDirs]
+DefaultDestDir=66000
+
+;--Class Driver only--;[GENERIC.AddProp]
+;--Class Driver only--;GenericDriverInstalled,,,,1 
+[INSTALL_SECTION_5335]
+CopyFiles=GENERAL_FILES,LOCALE_FILES,XR_FILTER_FILES,MODEL_5335_FILES
+
+[INSTALL_SECTION_5330]
+CopyFiles=GENERAL_FILES,LOCALE_FILES,XR_FILTER_FILES,MODEL_5330_FILES
+
+[INSTALL_SECTION_5325]
+CopyFiles=GENERAL_FILES,LOCALE_FILES,XR_FILTER_FILES,MODEL_5325_FILES
+
+
+[MODEL_5335_FILES]
+5335.GPD
+5335-manifest.ini
+5335.dpb
+5335-conf.GPD
+
+[MODEL_5330_FILES]
+5330.GPD
+5330-manifest.ini
+5330.dpb
+5330-conf.GPD
+
+[MODEL_5325_FILES]
+5325.GPD
+5325-manifest.ini
+5325.dpb
+5325-conf.GPD
+
+[GENERAL_FILES]
+ProductData.xml
+XeroxWorkCentre53xx-pipelineconfig.xml
+XeroxWorkCentre53xx-constraints.js
+XeroxWorkCentre53xx-qpb.xml
+XeroxWorkCentre53xx-devmode-map.xml
+
+[LOCALE_FILES]
+XeroxWorkCentre53xx-textres.gpd
+xr-TextResources.dll
+
+[XR_FILTER_FILES]
+xr-Utilities.v6.159.10.0.dll
+xr-FilterUtilities.v6.159.10.0.dll
+xr-VFilter.dll
+xr-TransformFilter.dll
+xr-AnnotationFilter.dll
+xr-PDLStreamFilter.dll
+msvcr120.dll
+msvcp120.dll
+
+[SourceDisksNames.amd64]
+1 = %Location%,,
+2 = %Location%,,,x64
+
+[SourceDisksFiles]
+5335.GPD                                           = 1
+5335-manifest.ini                                  = 1
+5335-conf.GPD                                      = 1
+5335.dpb                                           = 1
+5330.GPD                                           = 1
+5330-manifest.ini                                  = 1
+5330-conf.GPD                                      = 1
+5330.dpb                                           = 1
+5325.GPD                                           = 1
+5325-manifest.ini                                  = 1
+5325-conf.GPD                                      = 1
+5325.dpb                                           = 1
+XeroxWorkCentre53xx-pipelineconfig.xml             = 1
+XeroxWorkCentre53xx-constraints.js                 = 1
+XeroxWorkCentre53xx-qpb.xml                        = 1
+XeroxWorkCentre53xx-devmode-map.xml                = 1
+XeroxWorkCentre53xx-textres.gpd                    = 1
+ProductData.xml = 1
+xr-TextResources.dll                               = 2
+xr-Utilities.v6.159.10.0.dll                       = 2
+xr-FilterUtilities.v6.159.10.0.dll                 = 2
+xr-VFilter.dll                                     = 2
+xr-TransformFilter.dll                             = 2
+xr-AnnotationFilter.dll                            = 2
+xr-PDLStreamFilter.dll                             = 2
+msvcr120.dll                                       = 2
+msvcp120.dll                                       = 2
+
+
+[OEM URLS]
+"Xerox"="http://go.microsoft.com/fwlink/?LinkID=49&prd=10798&sbp=Printers"
+
+
+[Strings]
+Location="Xerox WorkCentre 5325/5330/5335"
+XR="Xerox"
+
