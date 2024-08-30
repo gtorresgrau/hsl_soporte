@@ -1,0 +1,11 @@
+- Install first, at the end of installation insert bogus email and choose "Continue with Evalution".
+- Go to install location and run SoldWinds Licensor as Admin!
+- Choose to activate manually (offline activation).
+- Copy your machine ID to Keygen and put any name in the keygen and generate.
+- Save the license in where the app installed.
+- Go back to activation screen and browse to that generated license.
+
+
+
+
+www.fullversiondown.com
