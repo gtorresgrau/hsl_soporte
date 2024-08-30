@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xrml="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <assemblyIdentity name="M4PeopleNetStart.application" version="813.002.014.0" publicKeyToken="48b0acad2a500650" language="neutral" processorArchitecture="x86" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <description asmv2:publisher="Meta4" asmv2:product="Meta4 PeopleNet 8 Rich Web (clickonce)" asmv2:supportUrl="http://www.meta4.com/" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <deployment install="false" mapFileExtensions="true" trustURLParameters="true" />
+  <dependency>
+    <dependentAssembly dependencyType="install" codebase="Application Files\M4PeopleNetStart_813_002_014\M4PeopleNetStart.exe.manifest" size="14656">
+      <assemblyIdentity name="M4PeopleNetStart.exe" version="813.002.014.0" publicKeyToken="48b0acad2a500650" language="neutral" processorArchitecture="x86" type="win32" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>slRmZhVgiE1s5xu7z/i7XI95lo8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
+    <framework targetVersion="4.0" profile="Client" supportedRuntime="4.0.30319" />
+    <framework targetVersion="4.0" profile="Full" supportedRuntime="4.0.30319" />
+  </compatibleFrameworks>
+<publisherIdentity name="CN=META4 SPAIN S.A., OU=ADMINISTRACION, O=META4 SPAIN S.A., L=LAS ROZAS, S=MADRID, C=ES" issuerKeyHash="963b53f0793397af7d83ef2e2bcccab7861e7266" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>/0b8ywJA767GXDdJajHurOCbX0I=</DigestValue></Reference></SignedInfo><SignatureValue>u8cud+EVfe2b14ia+rHlSvEdFhk5uLJJL1YU8hQ5+uVqoqY1eD84zEuqSJsuGC09MNWK+j93dyoqL9GOFUaCS+kO7levkrBTJz7/aSEmX+MRC41L9mzJMT9udGxgAVDUor32hXezYYZF791TD8NUcge9Z2BiY+KS0GiM9eFJuiPdGEgwqrEG0EtIMp3uASXrrXVfICjY0bBcJX70eE+2dLJshnyWRt6W0iXq+3ToJ7OWr6huEmpUcLjlT7LcFMIfh1BfEw8Jwuwj4/ES5RDDAqT8SBse0k7RPlTRVFc7grwYHQixXApiPFz6yuLziethiqj0BJkPPk0HJMpVuis/mw==</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>zeDrTm1QGAFJC1xSSC0FnBbjqTEJRo2Goss549GBElmVpJA5AS5+Pp8aMhGYVGGIEWL4Ip/EBlvFAaDTV9JtF8tmus+ijnUH06bE8dcLI+6rqfVpXoqR5B0zSZGN3U14L42JSTSNCkSYEt/i4P1mKmjBikaQVkmqHrJs1PHUoBx+7+jYdTilNBL4O5lTRNjguOg9gGyTryAPLq7PVrZOmuBWyG/D9mCSNyGiS2ynwbJco0+1HorFCDUr6n3eyLcoOClKwv5v9KXEhoTPIpueyRwc1BG0Ji8E9lwSQEyqjKFlJgOKs6M4jQZzUmLve1hcUZFExDLvLKquI/VqM6fM2Q==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="425f9be0acee316a49375cc6aeef4002cbfc46ff" Description="" Url=""><as:assemblyIdentity name="M4PeopleNetStart.application" version="813.002.014.0" publicKeyToken="48b0acad2a500650" language="neutral" processorArchitecture="x86" xmlns="urn:schemas-microsoft-com:asm.v1" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=META4 SPAIN S.A., OU=ADMINISTRACION, O=META4 SPAIN S.A., L=LAS ROZAS, S=MADRID, C=ES</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>WC9Kcskbnwwsa38WxSRzbPYarso=</DigestValue></Reference></SignedInfo><SignatureValue>pCdSWAiH1kojoS+SJ+D9J8iehqe9cwU4PWMKi1ywjAbgY1BhvduC2DBWwdfrxscpxaTvt/LUEzuqhJHGDquQs2RPl6/2w2ZMUdbWj9vmNMWxjcvBhNcczLILcKG5jYkk5203SKb/phaYLSbmwOl2mKdgWYWg92aYPH19K5hCuANE55D/nC4bAp38jz81q6Aq1LAJhp06ee3IEJHoJ3c9vg8QllVpdEifoxNFfNGdvTr/02oCeyEZ1eY0MvQVHWjVdEIwhQKK7+SGC39me87bFfWHFehMg0FmF5gGTycx1nBuKvndUwXHoHU4V1dLtyYE0qfUE2vYtmWAM2zBZN7eog==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>zeDrTm1QGAFJC1xSSC0FnBbjqTEJRo2Goss549GBElmVpJA5AS5+Pp8aMhGYVGGIEWL4Ip/EBlvFAaDTV9JtF8tmus+ijnUH06bE8dcLI+6rqfVpXoqR5B0zSZGN3U14L42JSTSNCkSYEt/i4P1mKmjBikaQVkmqHrJs1PHUoBx+7+jYdTilNBL4O5lTRNjguOg9gGyTryAPLq7PVrZOmuBWyG/D9mCSNyGiS2ynwbJco0+1HorFCDUr6n3eyLcoOClKwv5v9KXEhoTPIpueyRwc1BG0Ji8E9lwSQEyqjKFlJgOKs6M4jQZzUmLve1hcUZFExDLvLKquI/VqM6fM2Q==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIE6jCCA9KgAwIBAgIQDTeFr2EHhinlhTNhdbHurTANBgkqhkiG9w0BAQsFADB/MQswCQYDVQQGEwJVUzEdMBsGA1UEChMUU3ltYW50ZWMgQ29ycG9yYXRpb24xHzAdBgNVBAsTFlN5bWFudGVjIFRydXN0IE5ldHdvcmsxMDAuBgNVBAMTJ1N5bWFudGVjIENsYXNzIDMgU0hBMjU2IENvZGUgU2lnbmluZyBDQTAeFw0xNjAyMDIwMDAwMDBaFw0xOTA0MDIyMzU5NTlaMIGBMQswCQYDVQQGEwJFUzEPMA0GA1UECBMGTUFEUklEMRIwEAYDVQQHEwlMQVMgUk9aQVMxGTAXBgNVBAoUEE1FVEE0IFNQQUlOIFMuQS4xFzAVBgNVBAsUDkFETUlOSVNUUkFDSU9OMRkwFwYDVQQDFBBNRVRBNCBTUEFJTiBTLkEuMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzeDrTm1QGAFJC1xSSC0FnBbjqTEJRo2Goss549GBElmVpJA5AS5+Pp8aMhGYVGGIEWL4Ip/EBlvFAaDTV9JtF8tmus+ijnUH06bE8dcLI+6rqfVpXoqR5B0zSZGN3U14L42JSTSNCkSYEt/i4P1mKmjBikaQVkmqHrJs1PHUoBx+7+jYdTilNBL4O5lTRNjguOg9gGyTryAPLq7PVrZOmuBWyG/D9mCSNyGiS2ynwbJco0+1HorFCDUr6n3eyLcoOClKwv5v9KXEhoTPIpueyRwc1BG0Ji8E9lwSQEyqjKFlJgOKs6M4jQZzUmLve1hcUZFExDLvLKquI/VqM6fM2QIDAQABo4IBXTCCAVkwCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCB4AwKwYDVR0fBCQwIjAgoB6gHIYaaHR0cDovL3N2LnN5bWNiLmNvbS9zdi5jcmwwYQYDVR0gBFowWDBWBgZngQwBBAEwTDAjBggrBgEFBQcCARYXaHR0cHM6Ly9kLnN5bWNiLmNvbS9jcHMwJQYIKwYBBQUHAgIwGQwXaHR0cHM6Ly9kLnN5bWNiLmNvbS9ycGEwEwYDVR0lBAwwCgYIKwYBBQUHAwMwVwYIKwYBBQUHAQEESzBJMB8GCCsGAQUFBzABhhNodHRwOi8vc3Yuc3ltY2QuY29tMCYGCCsGAQUFBzAChhpodHRwOi8vc3Yuc3ltY2IuY29tL3N2LmNydDAfBgNVHSMEGDAWgBSWO1PweTOXr32D7y4rzMq3hh5yZjAdBgNVHQ4EFgQUZmtyIX0Fai9+8jUJjv9MgM6FlJMwDQYJKoZIhvcNAQELBQADggEBADJebLl0gG+3pdrwwFo0+71kNzktT0ilmNIJHPfHqE3kq2OsieyfWOcmXEMYBCITPQsIKkYDVvp/IhzrNv705dNQcrb/PfqmORSMmdbRzKOwNF9Dv4VwRsaRM3y1rA3F6nq2rjtMkQn7Upjp0rR0+AusoICmnu5irfnIFCcxGGgk1oeyVCHf0uFBnruwKQCxg8Lnmwo8rakBidXrq3K4/daL8CQgwilY7jpIH4BWYsN7NJ5/zdAqLuTRlONdpRk+FXGoqGGJcPD9dDPjW4mEWR0vAgIhyvvXirAeGSq3WNxlkqtqUg5mHQm9qSefclWdaxf/O7Lx27alsFu1BPFF+ws=</X509Certificate><X509Certificate>MIIFWTCCBEGgAwIBAgIQPXjX+XZJYLJhffTwHsqGKjANBgkqhkiG9w0BAQsFADCByjELMAkGA1UEBhMCVVMxFzAVBgNVBAoTDlZlcmlTaWduLCBJbmMuMR8wHQYDVQQLExZWZXJpU2lnbiBUcnVzdCBOZXR3b3JrMTowOAYDVQQLEzEoYykgMjAwNiBWZXJpU2lnbiwgSW5jLiAtIEZvciBhdXRob3JpemVkIHVzZSBvbmx5MUUwQwYDVQQDEzxWZXJpU2lnbiBDbGFzcyAzIFB1YmxpYyBQcmltYXJ5IENlcnRpZmljYXRpb24gQXV0aG9yaXR5IC0gRzUwHhcNMTMxMjEwMDAwMDAwWhcNMjMxMjA5MjM1OTU5WjB/MQswCQYDVQQGEwJVUzEdMBsGA1UEChMUU3ltYW50ZWMgQ29ycG9yYXRpb24xHzAdBgNVBAsTFlN5bWFudGVjIFRydXN0IE5ldHdvcmsxMDAuBgNVBAMTJ1N5bWFudGVjIENsYXNzIDMgU0hBMjU2IENvZGUgU2lnbmluZyBDQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJeDHgAWryyx0gjE12iTUWAecfbiR7TbWE0jYmq0v1obUfejDRh3aLvYNqsvIVDanvPnXydOC8KXyAlwk6naXA1OpA2RoLTsFM6RclQuzqPbROlSGz9BPMpK5KrA6DmrU8wh0MzPf5vmwsxYaoIV7j02zxzFlwckjvF7vjEtPW7ctZlCn0thlV8ccO4XfduL5WGJeMdoG68ReBqYrsRVR1PZszLWoQ5GQMWXkorRU6eZW4U1V9Pqk2JhIArHMHckEU1ig7a6e2iCMe5lyt/51Y2yNdyMK29qclxghJzyDJRewFZSAEjM0/ilfd4v1xPkOKiE1Ua4E4bCG53qWjjdm9sCAwEAAaOCAYMwggF/MC8GCCsGAQUFBwEBBCMwITAfBggrBgEFBQcwAYYTaHR0cDovL3MyLnN5bWNiLmNvbTASBgNVHRMBAf8ECDAGAQH/AgEAMGwGA1UdIARlMGMwYQYLYIZIAYb4RQEHFwMwUjAmBggrBgEFBQcCARYaaHR0cDovL3d3dy5zeW1hdXRoLmNvbS9jcHMwKAYIKwYBBQUHAgIwHBoaaHR0cDovL3d3dy5zeW1hdXRoLmNvbS9ycGEwMAYDVR0fBCkwJzAloCOgIYYfaHR0cDovL3MxLnN5bWNiLmNvbS9wY2EzLWc1LmNybDAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwMwDgYDVR0PAQH/BAQDAgEGMCkGA1UdEQQiMCCkHjAcMRowGAYDVQQDExFTeW1hbnRlY1BLSS0xLTU2NzAdBgNVHQ4EFgQUljtT8Hkzl699g+8uK8zKt4YecmYwHwYDVR0jBBgwFoAUf9Nlp8Ld7LvwMAnzQzn6Aq8zMTMwDQYJKoZIhvcNAQELBQADggEBABOFGh5pqTf3oL2kr34dYVP+nYxeDKZ1HngXI9397BoDVTn7cZXHZVqnjjDSRFph23Bv2iEFwi5zuknx0ZP+XcnNXgPgiZ4/dB7X9ziLqdbPuzUvM1ioklbRyE07guZ5hBb8KLCxR/Mdoj7uh9mmf6RWpT+thC4p3ny8qKqjPQQB6rqTog5QIikXTIfkOhFf1qQliZsFay+0yQFMJ3sLrBkFIqBgFT/ayftNTI/7cmd3/SeUx7o1DohJ/o39KK9KEr0Ns5cF3kQMFfo2KwPcwVAB8aERXRTl4r0nS1S+K4ReD6bDdAUK75fDiSKxH3fzvc1D1PFMqT+1i4SvZPLQFCE=</X509Certificate></X509Data></KeyInfo><Object><as:Timestamp>MIIL0wYJKoZIhvcNAQcCoIILxDCCC8ACAQExCzAJBgUrDgMCGgUAMIIBEwYJKoZI
+hvcNAQcBoIIBBASCAQCkJ1JYCIfWSiOhL5In4P0nyJ6Gp71zBTg9YwqLXLCMBuBj
+UGG924LYMFbB1+vGxynFpO+38tQTO6qEkcYOq5CzZE+Xr/bDZkxR1taP2+Y0xbGN
+y8GE1xzMsgtwobmNiSTnbTdIpv+mFpgtJubA6XaYp2BZhaD3Zpg8fX0rmEK4A0Tn
+kP+cLhsCnfyPPzWroCrUsAmGnTp57cgQkegndz2+DxCWVWl0SJ+jE0V80Z29Ov/T
+agJ7IRnV5jQy9BUdaNV0QjCFAorv5IYLf2Z7ztsV9YcV6EyDQWYXmAZPJzHWcG4q
++d1TBcegdThXV0u3JgTSp9QTa9i2ZYAzbMFk3t6ioIIImTCCA+4wggNXoAMCAQIC
+EH6T6/t8xk5Z6kuad9QG/DswDQYJKoZIhvcNAQEFBQAwgYsxCzAJBgNVBAYTAlpB
+MRUwEwYDVQQIEwxXZXN0ZXJuIENhcGUxFDASBgNVBAcTC0R1cmJhbnZpbGxlMQ8w
+DQYDVQQKEwZUaGF3dGUxHTAbBgNVBAsTFFRoYXd0ZSBDZXJ0aWZpY2F0aW9uMR8w
+HQYDVQQDExZUaGF3dGUgVGltZXN0YW1waW5nIENBMB4XDTEyMTIyMTAwMDAwMFoX
+DTIwMTIzMDIzNTk1OVowXjELMAkGA1UEBhMCVVMxHTAbBgNVBAoTFFN5bWFudGVj
+IENvcnBvcmF0aW9uMTAwLgYDVQQDEydTeW1hbnRlYyBUaW1lIFN0YW1waW5nIFNl
+cnZpY2VzIENBIC0gRzIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCx
+rLNJVEuXHBIK2CV5kSJXKm/cuCbEQ3Nrwr8uUFr7FMJ2jkMBJUO0oeJF9Oi3e8N0
+zCLXtJQAAvdN7b+0t0Qka81fRTvRRM5DEnMXgotptCvLmR6schsmTXEfsTHd+1Fh
+AlOmqvVJLAV4RaUvic7nmef+jOJXPz3GktxK+Hsz5HkK+/B1iEGc/8UDUZmq12yf
+k2mHZSmDhcJgFMTIyTsU2sCB8B8NdN6SIqvK9/t0fCfm90obf6fDni2uiuqm5qon
+Fn1h95hxEbziUKFL5V365Q6nLJ+qZSDT2JboyHylTkhE/xniRAeSC9dohIBdanhk
+Rc1gRn5UwRN8xXnxycFxAgMBAAGjgfowgfcwHQYDVR0OBBYEFF+a9W5czMx0mtTd
+fe8/2+xMgC7dMDIGCCsGAQUFBwEBBCYwJDAiBggrBgEFBQcwAYYWaHR0cDovL29j
+c3AudGhhd3RlLmNvbTASBgNVHRMBAf8ECDAGAQH/AgEAMD8GA1UdHwQ4MDYwNKAy
+oDCGLmh0dHA6Ly9jcmwudGhhd3RlLmNvbS9UaGF3dGVUaW1lc3RhbXBpbmdDQS5j
+cmwwEwYDVR0lBAwwCgYIKwYBBQUHAwgwDgYDVR0PAQH/BAQDAgEGMCgGA1UdEQQh
+MB+kHTAbMRkwFwYDVQQDExBUaW1lU3RhbXAtMjA0OC0xMA0GCSqGSIb3DQEBBQUA
+A4GBAAMJm495739ZMKrvaLX64wkdu0+CBl03X6ZSnxaN6hySCURu9W3rWHww6Plp
+jSNzCxJvR6muORH4KrGbsBrDjutZlgCtzgxNstAxpghcKnr84nodV0yoZRjpeUBi
+JZZux8c3aoMhCI5B6t3ZVz8dd0mHKhYGXqY4aiISo1EZg362MIIEozCCA4ugAwIB
+AgIQDs/0OMj+vzVuBNhqmBsaUDANBgkqhkiG9w0BAQUFADBeMQswCQYDVQQGEwJV
+UzEdMBsGA1UEChMUU3ltYW50ZWMgQ29ycG9yYXRpb24xMDAuBgNVBAMTJ1N5bWFu
+dGVjIFRpbWUgU3RhbXBpbmcgU2VydmljZXMgQ0EgLSBHMjAeFw0xMjEwMTgwMDAw
+MDBaFw0yMDEyMjkyMzU5NTlaMGIxCzAJBgNVBAYTAlVTMR0wGwYDVQQKExRTeW1h
+bnRlYyBDb3Jwb3JhdGlvbjE0MDIGA1UEAxMrU3ltYW50ZWMgVGltZSBTdGFtcGlu
+ZyBTZXJ2aWNlcyBTaWduZXIgLSBHNDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+AQoCggEBAKJjCzlEuLsjp0RJuw7/ofBhClOTsJjbrSwPSsVu/4Y8U1UPFc4EPyv9
+qZaW2b5heQtbyUyGduXgQ0sile7CK0PBn9hotI5AT+6FOLkRxSPyZFjwFTJvTleh
+roikAtcqHs1L4d1j1ReJMluwXplaqJ0oUA4X7pbbYTtFUR3PElYLkkf8q672Zj1H
+rHBy55LnX80QucSDZJQZvSWA4ejSIqXQugJ6oXeTW2XD7hd0vEGGKtwITIySjJEt
+nndEH2jWqHR32w5bMotWizO92WPISZ06xcXqMwvS8aMb9Iu+2bNXizveBKd6IrIk
+ri7HcMW+ToMmCPsLvalPmQjhEChyqs0CAwEAAaOCAVcwggFTMAwGA1UdEwEB/wQC
+MAAwFgYDVR0lAQH/BAwwCgYIKwYBBQUHAwgwDgYDVR0PAQH/BAQDAgeAMHMGCCsG
+AQUFBwEBBGcwZTAqBggrBgEFBQcwAYYeaHR0cDovL3RzLW9jc3Aud3Muc3ltYW50
+ZWMuY29tMDcGCCsGAQUFBzAChitodHRwOi8vdHMtYWlhLndzLnN5bWFudGVjLmNv
+bS90c3MtY2EtZzIuY2VyMDwGA1UdHwQ1MDMwMaAvoC2GK2h0dHA6Ly90cy1jcmwu
+d3Muc3ltYW50ZWMuY29tL3Rzcy1jYS1nMi5jcmwwKAYDVR0RBCEwH6QdMBsxGTAX
+BgNVBAMTEFRpbWVTdGFtcC0yMDQ4LTIwHQYDVR0OBBYEFEbGaaMOShQe1UzaUmMX
+P142vA3mMB8GA1UdIwQYMBaAFF+a9W5czMx0mtTdfe8/2+xMgC7dMA0GCSqGSIb3
+DQEBBQUAA4IBAQB4O7SRKgBM8I9iMDd4o4QnB28Yst4l3KDUlAOqhk4ln5pAAxzd
+zuN5yyFoBtq2MrRtv/QsJmMz5ElkbQ3mw2cO9wWkNWx8iRbG6bLfsundIMZxD82V
+dNy2XN69Nx9DeOZ4tc0oBCCjqvFLxIgpkQ6A0RH83Vx2bk9eDkVGQW4NsOo4mrE6
+2glxEPwcebSAe6xp9P2ctgwWK/F/Wwk9m1viFsoTgW0ALjgNqCmPLOGy9FqpAa8V
+nCwvSRvbIrvD/niUUcOGsYKIXfA9tFGheTMrLnu53CAJE3Hrahlbz+ilMFcsiUk/
+uc9/yb8+ImhjU5q9aXSsxR08f5Lgw7wc2AR1MYIB+DCCAfQCAQEwcjBeMQswCQYD
+VQQGEwJVUzEdMBsGA1UEChMUU3ltYW50ZWMgQ29ycG9yYXRpb24xMDAuBgNVBAMT
+J1N5bWFudGVjIFRpbWUgU3RhbXBpbmcgU2VydmljZXMgQ0EgLSBHMgIQDs/0OMj+
+vzVuBNhqmBsaUDAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEH
+ATAcBgkqhkiG9w0BCQUxDxcNMTYwOTIzMTQyODU4WjAjBgkqhkiG9w0BCQQxFgQU
+WVWCsT8ENLrdpfeiWg62cI3WLEMwDQYJKoZIhvcNAQEBBQAEggEAAzwnHyCc268s
+wNCFKmMyD3VERt2JtiyML1wKNn/4RQF0aRLq8734WhZerco4T86dja0CZTY0dO2u
+U+6IBfr2nu+2RqK5GH4hSBvZ9QZzUUo1tOq340YZcjnxNcFmpYVe3H/yoO8RQ5+9
+oqYDT7ooNgLvHyWgWSdFd1eNaFh2cf0/2MF3F3wmWfFDlFedXQCGvRVvxDcOYtDB
+lf+eFZok5o7e68PMKpQU8NRUGZyVkClgNkNJjKBnqAiDzW29vTQ+U7oTiVY7oFI3
+RaCjNqvwG1LmtgcKxpaoqcn7M592Wp+weEaHDiL9ranfmgRkyubai3APBo7C1Ms1
+ngMB1MSk2Q==
+</as:Timestamp></Object></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
