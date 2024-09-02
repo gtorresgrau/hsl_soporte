@@ -7,7 +7,7 @@ Este repositorio contiene una colección de programas y utilidades utilizadas en
 
 ## Índice
 
-1. [Activators](#activators)
+1. [Activadores](programas/activadores)
 2. [Adobe Readers](#adobe-readers)
 3. [Adobe Photoshop CS4](#adobe-photoshop-cs4)
 4. [Bloquear Update](#bloquear-update)
